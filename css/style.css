@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header section start */
+.header{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.331);
+   
+    
+}
+.logo{
+    width: 15%;
+    height: 120px;
+    display: inline-block;
+}
+.logo img{
+    height: 50px;
+    width: 80px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.menu{
+    width: 70%;
+    height: 120px;
+    display: inline-block;
+  
+}
+.menu ul{
+    margin-left: 10px;
+    margin-top: 40px;
+
+}
+.menu ul li{
+    display: inline-block;
+
+    font-size: 22px;
+    padding: 0 25px;
+
+
+}
+.social{
+    width: 15%;
+    height: 150px;
+    display: inline-block;
+}
+.social button{
+    padding: 15px 35px;
+    margin-top: 30px;
+    background-color:#0509f6;
+    border-radius: 5px;
+    border: none;
+    color:#fff;
+}
+/* header sectin end */
+.bannar{
+    width: 100%;
+    height: 600px;
+    display: flex;
+   padding: 10px;
+   text-align: center;
+   justify-content: center;
+   background-color: rgb(247, 246, 217);
+
+}
+ .left{
+    width: 50%;
+    height: 400px;
+}
+.left h1{
+    margin-top: 150px;
+    margin-bottom: 5px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left p{
+    font-size: medium;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+.left button{
+    padding:10px 35px;
+    color: #fff;
+    background-color: #0509f6;
+    border-radius: 10px;
+    border: none;
+}
+
+.right{
+    width: 50%;
+    height: 400px;
+    
+}
+.right img{
+    width: 70%;
+    height: 500px;
+    display: inline-block;
+}
+
+/* banner part end */
+/* galary part start */
+.bikeGallary{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    
+    /* padding: 25px; */
+}
+.bikeGallary .galary-image{
+    width: 25%;
+    height: 150px;
+}
+.bikeGallary .galary-image img{
+    width:100%;
+    object-fit: cover;
+}
+/* galary part end */
+/* comments part statr */
+.comments{
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+}
+.comments .comment{
+    width: 33.33%;
+    height: 300px;
+    text-align: center;
+    padding: 0 70px;
+    
+}
+.comment img{
+    width: 30%;
+   
+}
+
+
+
+/* comments part end */
+/* footer section start */
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
+    
+
+}
+
+
+
+/* footer section end */
